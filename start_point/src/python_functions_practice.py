@@ -30,3 +30,11 @@ def number_to_full_month_name(month):
 def number_to_short_month_name(month):
     return months[month-1][:3]   
 
+def volume_cube(side_1, side_2, side_3):
+    return side_1 * side_2 * side_3
+
+def reverse_string(string):
+    return string[::-1]    
+
+def fah_to_cel(temp):
+    return (temp - 32) * 1.8
